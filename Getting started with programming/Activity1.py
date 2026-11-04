@@ -1,0 +1,5 @@
+print("Hello my name is Panav")
+print(542)
+print("what\nis\nyour\nname")
+name=input("what is your faviroute colour")
+print(name)
