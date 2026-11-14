@@ -1,0 +1,25 @@
+# ================================
+# SCHOOL CLUB MEMBER BADGE
+# ================================
+# ---------- PART 1: member details ---------
+Member_name = input("Member name: ")
+Club_name = input("Club name: ")
+Member_Number = 8
+Points=9.5
+Active=True
+
+# ---------- PART 2: data types ----------
+print("Member number:", Member_Number, "-> type:", type(Member_Number))
+print("Points:", Points, "-> type:", type(Points))
+print("Active:", Active, "-> type:", type(Active))
+
+# Make member_number = 8, points = 9.5 and is_active = True.
+# Print each one with its data type, using type().
+
+# ---------- PART 3: badge code ----------
+badge_code = Member_name[0:3] + Club_name[-1] + str(Member_Number)
+print(badge_code)
+# Join: the first 3 letters of the name,
+#       the last letter of the club,
+#       and the member number turned into text.
+# Save it in badge_code and print it.
